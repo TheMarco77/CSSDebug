@@ -29,9 +29,9 @@ p {
   text-shadow: 0 1px 0 rgba(0, 0, 0, .25);
 }
 
-#invited-list {
+/* #invited-list {
   display: inline-block;
-}
+} */
 
 /* Form Elements */
 
@@ -221,6 +221,7 @@ header {
 
   .guest-list {
     display: flex;
+    clear: both;
     justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 1.25em;
